@@ -64,18 +64,36 @@ Is 2 an even number? true
 
 Is 5 an even number? false
  */
-let num1=2;
-let num2=5;
-let test1=num1%2;
-let test2=num2%2;
-let result1=test1==0;
-let result2=test2==0;
-console.log("Is" + num1 +" an even number? " + result1);
-console.log("Is" + num2 +" an even number? " + result2);
+let num1 = 2;
+let num2 = 5;
+let test1 = num1 % 2;
+let test2 = num2 % 2;
+let result1 = test1 == 0;
+let result2 = test2 == 0;
+console.log("Is" + num1 + " an even number? " + result1);
+console.log("Is" + num2 + " an even number? " + result2);
 
 //  Task 4: Add numbers using the + operator
 /**
 Console log the result of adding two numbers, 5 and 10, using the + operator.
 Note: This task should be completed on a single line of code. The output in the console should be 15.
  */
-console.log(5+10);
+console.log(5 + 10);
+//Task 5: Concatenate numbers and strings using the + operator
+/**
+Code three variables:
+The first variable should be a string with the following value: "Now in ". Name the variable now.
+
+The second variable should be a number with the value: 3. Name the variable three.
+
+The third variable should a string with the following value: "D!". Name the variable d.
+
+Console log the following code: now + three + d.
+
+Note: The expected output should be: "Now in 3D!".
+ * 
+ */
+let now="Now in ";
+let three=3;
+let d="D!";
+console.log(now+three+d);
