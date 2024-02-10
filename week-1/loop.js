@@ -39,8 +39,24 @@ Write a "while" loop that will perform exactly the same repetitive code as this:
 Counting completed!
  */
 let i = 1;
-while (i<=5) {
+while (i <= 5) {
     console.log(i);
     i++;
 }
-console.log("Counting completed!")
+console.log("Counting completed!");
+/**
+Task 4
+Write a "while" loop that will perform exactly the same repetitive code as this:
+5
+4
+3
+2
+1
+Countdown finished!
+ */
+let j = 5;
+while (j > 0) {
+    console.log(j);
+    j--;
+}
+console.log("Countdown finished!");
