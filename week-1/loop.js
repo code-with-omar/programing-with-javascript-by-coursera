@@ -60,3 +60,18 @@ while (j > 0) {
     j--;
 }
 console.log("Countdown finished!");
+
+/**
+Task 5
+Write a "while" loop that will perform exactly the same repetitive code as this
+2018
+2019
+2020
+2021
+2022
+ */
+let k = 2018;
+while (k <= 2022) {
+    console.log(k);
+    k++;
+}
