@@ -17,7 +17,10 @@ console.log(car);
 car.turnKey = function () {
     console.log('engine running');
 }
-
+car.lightsOn = function() {
+    console.log("The lights are on.")
+}
 
 console.log(car);
 car.turnKey()//called the turnKey function in car object
+car.lightsOn()//called the turnKey function in car object
