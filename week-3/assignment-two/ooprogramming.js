@@ -25,7 +25,9 @@ class Worker extends Person {
 }
 // Task 3: Code an intern object, run methods
 function intern() {
-    new Worker(name)
+    let newIntern = new Worker("Bob", 21, 110, 0, 10);
+    newIntern.goToWork();
+    return newIntern;
 }
 
 // Task 4: Code a manager object, methods
