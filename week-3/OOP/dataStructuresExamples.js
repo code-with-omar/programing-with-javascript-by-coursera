@@ -2,6 +2,7 @@
 // 1.forEach 
 // 2.filter
 // 3.map
+//Thats all Data Structures example
 const fruits = ["kiwi", "mango", "apple", "pear"];
 function appendIndex(fruit, index) {
     console.log((`${index}. ${fruit}`));

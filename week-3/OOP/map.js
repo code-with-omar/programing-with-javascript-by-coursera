@@ -1,4 +1,4 @@
-// The map method
+//Thats all Data Structures example
 const numbers = [4, 9, 16, 25];
 const newArr = numbers.map(Math.sqrt);
 console.log(newArr)
