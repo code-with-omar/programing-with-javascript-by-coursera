@@ -19,11 +19,16 @@ const bird = Object.create(animal);
 bird.canFly = true;
 
 bird.hasFeathers = true;
-function hasFeathers() {
+function birdCan() {
     for (const key of Object.keys(bird)) {
         console.log(`${key}: ${bird[key]}`);
     }
 }
-hasFeathers()
+birdCan()
 // Task 3
-
+function animalCan() {
+    for (const key in bird) {
+        console.log(`${key}: ${bird[key]}`)
+    }
+}
+animalCan()
